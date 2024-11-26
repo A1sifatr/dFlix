@@ -1,0 +1,9 @@
+<addon id="plugin.video.dflix" version="1.0" name="dFlix" provider-name="Sifat">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+    </requires>
+    <extension point="xbmc.python.plugin" library="default.py" />
+    <summary>A simple Kodi video add-on</summary>
+    <description>This add-on plays videos from a sample list.</description>
+    <platform>all</platform>
+</addon>
